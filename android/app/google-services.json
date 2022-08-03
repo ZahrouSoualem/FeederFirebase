@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "95499363571",
+    "project_id": "feeder-90552",
+    "storage_bucket": "feeder-90552.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95499363571:android:dd5207353ff80bb11f4386",
+        "android_client_info": {
+          "package_name": "com.zahreddine.feeder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95499363571-s3v583aoo8b3v1oj7lbqg56r73n6psoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrhmab1Rv43w159uRrRgkMIvINy8bW0Gs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95499363571-s3v583aoo8b3v1oj7lbqg56r73n6psoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
