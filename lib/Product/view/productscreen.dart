@@ -471,11 +471,11 @@ class Details_Screen extends StatelessWidget {
                               color: kPinkColors,
                             ),
                             Obx(
-                              () => Text(
-                                orderController.costOfproduct(product: product),
-                                style: const TextStyle(
-                                    fontWeight: FontWeight.bold, fontSize: 18),
-                              ),
+                                ()=> Text(
+                                  orderController.costOfproduct(product: product),
+                                  style: const TextStyle(
+                                      fontWeight: FontWeight.bold, fontSize: 18),
+                                ),
                             ),
                           ],
                         ),

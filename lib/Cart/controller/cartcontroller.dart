@@ -81,10 +81,15 @@ class OrderController extends GetxController {
   }
 
   String costOfproduct({required ProductModel product}) {
-    double cost = product.proPrice * products[product];
-    return products.containsKey(product)
-        ? '${cost.toStringAsFixed(2)}'
-        : '${product.proPrice.toStringAsFixed(2)}';
+
+
+    if(products.containsKey(product)){
+      double cost = product.proPrice * products[product];
+      return cost.toStringAsFixed(2);
+    }else{
+      return product.proPrice.toStringAsFixed(2);
+    }
+
   }
 
   String total() {
