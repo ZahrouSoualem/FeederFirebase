@@ -112,6 +112,7 @@ class Database extends GetxController {
   }
 
   Stream<List<ProductModel?>>  get streamOfCategoryProduct{
+    // here we are going to fetch the product of specific category
     listProduct.clear();
     return productCollRef
         .where('category', isEqualTo: categoryName.value)

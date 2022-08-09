@@ -38,14 +38,8 @@ class AuthToApp extends GetxController {
       // final facControoler = Get.put(FavouriteController());
       // facControoler.uid.value= user.uid;
       uid.value = user.uid;
-      print('user is not null');
-      //return Get.offNamed(DashboardPage.pageName);
-      //return isSigned.value;
     } else {
       isSigned(false);
-      print('user is null');
-
-      //return Get.offNamed(SignUp.pageName);
     }
   }
 
@@ -70,7 +64,6 @@ class AuthToApp extends GetxController {
     try {
       await _auth.signOut();
     } catch (e) {
-      print('Loged out failed');
       return null;
     }
   }

@@ -66,7 +66,6 @@ class FavouriteController extends GetxController {
   // this is the ID of the current user, So whenever
   // this user add a product to favourite liste,
   // this product will be added only to that user.
-  //final userControoler = Get.find<UserController>();
   RxString uid = ''.obs;
 
   @override

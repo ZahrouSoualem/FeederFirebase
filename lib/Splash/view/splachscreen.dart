@@ -8,9 +8,8 @@ import 'package:untitled/constant.dart';
 import 'package:untitled/Wrapper/wrapper.dart';
 
 class SplachScreen extends StatelessWidget {
-   SplachScreen({Key? key}) : super(key: key);
+  SplachScreen({Key? key}) : super(key: key);
   static const String pageName = '/Splach';
-
 
   @override
   Widget build(BuildContext context) {
@@ -27,12 +26,13 @@ class SplachScreen extends StatelessWidget {
           //crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-                height: 150,
-                width: 150,
-                child: Image.asset(
-                  "assets/images/illustrations/svg/logos.png",
-                  fit: BoxFit.scaleDown,
-                )),
+              height: 150,
+              width: 150,
+              child: Image.asset(
+                "assets/images/illustrations/svg/logos.png",
+                fit: BoxFit.scaleDown,
+              ),
+            ),
             const Text(
               'FEEDER',
               style: TextStyle(
